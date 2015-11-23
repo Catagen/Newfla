@@ -4,7 +4,6 @@ Simple python script for quickly creating a Flask project structure set up with 
 ###Requirements to run the script
 * Python 3.X
 * Python Click
-* Windows (Mac and Linux will be supported soon)
 
 ###Requirements to run the app
 * Flask
@@ -20,5 +19,4 @@ python newfla.py --name=YourAppName
 _Note that leaving the name blank will set your projects name to 'FlaskApp'_
 
 ####Future pushes will support the following
-* Mac/Linux
 * An automatic set up of virtual environment inside the app
