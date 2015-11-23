@@ -11,7 +11,7 @@ def read_packages():
 
     return packages
 
-def create_html_files():
+def create_html_files(name):
     open('404.html', 'w').write("{{ e }}")
     open('500.html', 'w').write("{{ e }}")
     open('base.html', 'w').write("{% extends 'bootstrap/base.html' %}\n\nv{% block html_attribs %} lang='en' {% endblock %}\n\n{% block head %}\n{{ super() }}\n<title>" + name + "</title>\n{% endblock %}\n\n{% block content %}\n<div class='container'>\n{% block container %}\n{% endblock -%}\n</div>\n{% endblock %}\n\n{% block scripts %}\n{{ super() }}\n{{ moment.include_moment() }}\n{{ moment.lang('en') }}\n{% endblock %}")
@@ -57,7 +57,7 @@ def new_project(name):
         chdir("templates")
 
         # Create all the basic files
-        create_html_files()
+        create_html_files(name)
 
         # Print a help message according to operating system
         if "win" in operating.lower():
