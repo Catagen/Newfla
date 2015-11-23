@@ -17,7 +17,7 @@ To run the script simply copy the file into the desired directory and run the fo
 ```
 python newfla.py --name=YourAppName
 ```
-Note that leaving the name blank will set your projects name to 'FlaskApp'
+_Note that leaving the name blank will set your projects name to 'FlaskApp'_
 
 ####Future pushes will support the following
 * Mac/Linux
