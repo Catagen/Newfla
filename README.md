@@ -1,5 +1,5 @@
 # Newfla
-Simple python script for quickly creating a Flask project structure set up with a virtual environment containing Redis, Bootstrap and moment.
+Simple python script for quickly creating a Flask project structure set up with a virtual environment containing Redis, Bootstrap, Moment and the packagages of your choice.
 
 ###Requirements to run the script
 * Python 3.X
